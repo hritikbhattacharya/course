@@ -65,6 +65,8 @@ export default function page() {
                     width={500}
                     height={500}
                     placeholder="image"
+
+                    alt="Cover image"
                   />
                   <h1 className="my-3 font-bold text-base">{c.course_name}</h1>
 
