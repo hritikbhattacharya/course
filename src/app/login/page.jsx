@@ -6,7 +6,7 @@ import Image from "next/image";
 
 
 
-export default function page() {
+export default function Page() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLogin, setIsLogin] = useState(false);
